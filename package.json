@@ -1,15 +1,19 @@
 {
-  "name": "aplicativo", 
+  "name": "aplicativo-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Servidor backend para o aplicativo de teste.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node --watch index.js"
   },
   "dependencies": {
-    "express": "4.18.2"  
+    "express": "4.18.2"
   },
-  "keywords": [],
+  "keywords": [
+    "backend",
+    "node",
+    "express"
+  ],
   "author": "",
   "license": "ISC"
 }
